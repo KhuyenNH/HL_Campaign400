@@ -1,0 +1,153 @@
+/* CSS Document */
+
+@charset "utf-8";
+/*  setting start
+-------------------------------*/
+
+/* --------- font設定  -----------
+どのブラウザも14px相当に統一
+-------------------------------*/
+
+body {
+    font-size: 80%;
+    line-height: 160%;
+}
+html>
+/**/
+
+body {
+    font-size: 14px;
+    line-height: 160%;
+}
+/*-----------------------------*/
+
+html, body {
+    height: 100%;
+}
+div#all {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+    padding: 0 0 0 0;
+}
+body>#all {
+    height: auto;
+}
+/*  setting end
+-------------------------------*/
+
+.main_wrapper {
+    width: 100%;
+    min-width: 970px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: url('../images/bg.jpg') center top no-repeat #fff959;
+    background-size: cover;
+}
+#header {
+    width: 970px;
+    height: auto;
+    margin: 0 auto;
+}
+#contBody {
+    width: 970px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 0 80px;
+}
+.cpBnr {
+    width: 930px;
+    height: auto;
+    margin: 0 auto 25px;
+    position: relative;
+}
+.cpBnr a {
+    color: #510f0f;
+    text-decoration: none;
+}
+.cpBnr.close:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 116px;
+    position: absolute;
+    top: 6px;
+    left: -18px;
+    background: url('../images/close.png') no-repeat;
+    z-index: 1;
+}
+.cpBnr .date {
+    display: block;
+    width: 378px;
+    height: 109px;
+    line-height: 90px;
+    text-align: center;
+    color: #ffdb11;
+    font-weight: bold;
+    font-size: 21px;
+    background: url('../images/date_bg.png') no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: -14px;
+}
+.cpComing {
+    position: relative;
+    left: -25px;
+    width: 928px;
+    margin: 0 auto 30px;
+}
+/*------------------------------------------*/
+
+.footTopWrap {
+    width: 100%;
+    height: 40px;
+    background: #000;
+    border-top: 1px #fff solid;
+    clear: both;
+}
+.footTop {
+    width: 970px;
+    height: 30px;
+    color: #fff;
+    font-size: 80%;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+    text-align: center;
+    background: #000;
+}
+.footTop a {
+    color: #fff;
+    text-decoration: none;
+}
+.footTop a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.footBtmWrap {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+}
+.footBtm {
+    width: 900px;
+    height: 48px;
+    color: #000;
+    font-size: 80%;
+    margin: 0 auto;
+    padding: 12px 0 0 0;
+}
+.fbLeft {
+    width: 50%;
+    height: auto;
+    float: left;
+    line-height: 170%;
+}
+.fbRight {
+    width: 50%;
+    height: auto;
+    float: right;
+    text-align: right;
+    font-weight: normal;
+}
